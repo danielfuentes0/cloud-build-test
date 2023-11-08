@@ -18,7 +18,7 @@ steps:
            'create-with-container', 'my-vm-name-0000001',
            '--container-image', 
            'us-central1-docker.pkg.dev/${PROJECT_ID}/my-docker-repo/myimage',
-           '--shielded-secure-boot'
+           '--shielded-secure-boot',
            '--network-interface',
            'stack-type=IPV4_ONLY,subnet=default,no-address']
     env:
